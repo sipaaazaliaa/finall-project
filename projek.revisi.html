@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<!-- a. Tag, Elemen, dan Atribut dalam HTML -->
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur Jawa Tengah Nan Gurih</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="rsep.css">
+</head>
+<body>
+
+<!-- INFO BANNER -->
+    <div id="info-banner">
+        Selamat datang di <strong>Dapur Jawa Tengah Nan Gurih</strong> — Warisan Kuliner Jawa Tengah
+    </div>
+
+
+<nav>
+    <div class="nav-inner">
+        <!--  Link HTML dengan href -->
+        <a href="#home" class="nav-logo"> Dapur Jawa Tengah</a>
+        <a href="#home">Beranda</a>
+        <a href="#tentang">Saran</a>
+        <a href="#profile" class="nav-profile">Profil</a>
+        <div class="nav-search-wrap">
+            <input type="checkbox" id="search-toggle">
+            <label class="search-icon-label" for="search-toggle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </label>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-- ==============================
+        HOME PAGE
+    ============================== -->
+<div id="home" class="page">
+
+    <header>
+        <div class="header-inner">
+            <div class="header-badge">Jawa Tengah · Indonesia</div>
+            <h1>Dapur Jawa Tengah<br>Nan Gurih</h1>
+            <p>Kumpulan resep warisan leluhur dari Provinsi Jawa Tengah</p>
+            <div class="header-socials">
+                <a href="https://www.instagram.com/sipawawa_?igsh=MWYwY3ptbTlvaGF3ag==" target="_blank" class="social-btn instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                        <circle cx="12" cy="12" r="4"/>
+                        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                    </svg>
+                </a>
+                <a href="https://www.tiktok.com/@urlo0vesip4_?_r=1&_t=ZS-964YFPi6TYeu" target="_blank" class="social-btn tiktok">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <aside class="info-aside">
+                <div class="info-aside-icon"> </div>
+                <div>
+                    <h3>Tentang Kuliner Jawa Tengah</h3>
+                    <p>
+                        Kabupaten Jawa Tengah dikenal dengan kekayaan kuliner tradisional yang memadukan cita rasa
+                        pesisir dan pegunungan. Setiap hidangan menggunakan rempah-rempah segar pilihan.
+                        Temukan resep autentik kami di bawah ini dan lestarikan warisan kuliner nusantara!
+                    </p>
+                </div>
+            </aside>
+
+            <section>
+                <div class="section-label">
+                    <h2> Makanan Utama</h2>
+                </div>
+                <div class="recipe-grid">
+                    <!-- Soto Tauco -->
+                    <article id="soto" class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Soto Tauco</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsUdqO0HKb4j2jHTihPsFvuqX7CFDvC9bFvg&s"
+                                     alt="Soto Tauco khas Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Makanan Utama</span>
+                        </div>
+                        <p class="description">Soto khas Jawa Tengah dengan bumbu tauco — perpaduan rasa <em>asam, manis, dan gurih</em> yang unik.</p>
+
+                        <input type="checkbox" class="recipe-toggle" id="r1">
+                        <label class="recipe-label" for="r1">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>500g daging sapi atau ayam (rebus hingga empuk)</li>
+                                <li>3 sdm <strong>tauco</strong> kualitas baik</li>
+                                <li>Bumbu halus: bawang merah, putih, kemiri, jahe, kunyit</li>
+                                <li>Pelengkap: soun, tauge, daun seledri, bawang goreng</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Tumis bumbu halus bersama tauco hingga harum.</li>
+                                <li>Masukkan ke dalam air kaldu rebusan daging.</li>
+                                <li>Tambahkan garam, gula, dan penyedap rasa sesuai selera.</li>
+                                <li>Tata bahan pelengkap di mangkuk, siram kuah panas, sajikan.</li>
+                            </ol>
+                            <div class="nutrition-table-wrap">
+                                <table>
+                                    <caption> Informasi Gizi per Sajian</caption>
+                                    <thead>
+                                        <tr>
+                                            <th>Nutrisi</th>
+                                            <th>Jumlah</th>
+                                            <th>% Harian</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Kalori</td><td>210 kkal</td><td>11%</td></tr>
+                                        <tr><td>Protein</td><td>18 g</td><td>36%</td></tr>
+                                        <tr><td>Lemak</td><td>9 g</td><td>12%</td></tr>
+                                        <tr><td>Karbohidrat</td><td>15 g</td><td>5%</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+                        <!-- Lontong Lemprak -->
+                    <article id="lontong" class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Lontong Lemprak</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMNQzY6jj1x5BIxUYb8Nh7YQUCPEa1dpGSlw&s"
+                                     alt="Lontong Lemprak khas Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Makan Malam</span>
+                        </div>
+                        <p class="description">Mirip opor ayam dengan kuah kuning kental dan aroma rempah yang <em>sangat kuat</em>, disajikan di atas lontong.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r3">
+                        <label class="recipe-label" for="r3">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>1 ekor <strong>ayam kampung</strong> (potong-potong)</li>
+                                <li>1 liter santan kental</li>
+                                <li>Bumbu: kunyit, jahe, lengkuas, sereh, ketumbar, jinten</li>
+                                <li>Lontong bungkus daun pisang</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Tumis bumbu halus, sereh, dan daun salam hingga berminyak.</li>
+                                <li>Masukkan ayam, aduk hingga berubah warna.</li>
+                                <li>Tuangkan santan sedikit demi sedikit sambil diaduk agar tidak pecah.</li>
+                                <li>Masak api kecil hingga ayam empuk dan kuah mengental. Sajikan di atas irisan lontong.</li>
+                            </ol>
+                            <div class="nutrition-table-wrap">
+                                <table>
+                                    <caption> Informasi Gizi per Sajian</caption>
+                                    <thead>
+                                        <tr><th>Nutrisi</th><th>Jumlah</th><th>% Harian</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Kalori</td><td>320 kkal</td><td>16%</td></tr>
+                                        <tr><td>Protein</td><td>24 g</td><td>48%</td></tr>
+                                        <tr><td>Lemak</td><td>18 g</td><td>23%</td></tr>
+                                        <tr><td>Karbohidrat</td><td>22 g</td><td>7%</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Nasi Gandul -->
+                    <article class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Nasi Gandul</h3>
+                                <img src="https://i0.wp.com/resepkoki.id/wp-content/uploads/2018/09/Resep-Nasi-Gandul.jpg?fit=1280%2C1388&ssl=1"
+                                     alt="Nasi Gandul khas Pati Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Makanan Utama</span>
+                        </div>
+                        <p class="description">Nasi putih dengan kuah kaldu sapi kental berwarna kecoklatan, disajikan dengan <em>daging sapi empuk</em> dan daun pisang.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r5">
+                        <label class="recipe-label" for="r5">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>500g daging sapi (sandung lamur)</li>
+                                <li>1 liter kaldu sapi</li>
+                                <li>Bumbu: bawang merah, putih, ketumbar, kemiri, <mark>kecap manis</mark></li>
+                                <li>Daun salam, lengkuas, garam, gula merah</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Rebus daging hingga empuk, sisihkan kaldu.</li>
+                                <li>Tumis bumbu halus, masukkan ke kaldu.</li>
+                                <li>Tambahkan kecap manis, gula merah, garam, masak hingga kuah mengental.</li>
+                                <li>Sajikan nasi di piring beralas daun pisang, siram kuah di atasnya.</li>
+                            </ol>
+                            <div class="nutrition-table-wrap">
+                                <table>
+                                    <caption> Informasi Gizi per Sajian</caption>
+                                    <thead>
+                                        <tr><th>Nutrisi</th><th>Jumlah</th><th>% Harian</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Kalori</td><td>380 kkal</td><td>19%</td></tr>
+                                        <tr><td>Protein</td><td>28 g</td><td>56%</td></tr>
+                                        <tr><td>Lemak</td><td>14 g</td><td>18%</td></tr>
+                                        <tr><td>Karbohidrat</td><td>35 g</td><td>12%</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Kupat Tahu -->
+                    <article class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Kupat Tahu</h3>
+                                <img src="https://img-global.cpcdn.com/recipes/bc28673ab0a46835/1200x630cq80/photo.jpg"
+                                     alt="Kupat Tahu khas Jawa Tengah Pekalongan"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Sarapan</span>
+                        </div>
+                        <p class="description">Ketupat dengan tahu goreng dibalut bumbu kacang tauco yang khas, populer sebagai <em>sarapan</em> di kawasan Jawa Tengah-Pekalongan.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r6">
+                        <label class="recipe-label" for="r6">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>4 buah ketupat, potong-potong</li>
+                                <li>300g tahu putih, goreng</li>
+                                <li>2 sdm tauco, haluskan</li>
+                                <li>Bumbu kacang: kacang tanah goreng, cabai, gula, garam</li>
+                                <li>Pelengkap: kecambah, daun bawang, kerupuk</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Haluskan kacang tanah bersama cabai, tauco, gula, dan garam.</li>
+                                <li>Encerkan bumbu kacang dengan sedikit air panas hingga kental cair.</li>
+                                <li>Tata ketupat dan tahu di piring, tambahkan kecambah.</li>
+                                <li>Siram bumbu kacang tauco, taburi daun bawang dan sajikan.</li>
+                            </ol>
+                            <div class="nutrition-table-wrap">
+                                <table>
+                                    <caption> Informasi Gizi per Sajian</caption>
+                                    <thead>
+                                        <tr><th>Nutrisi</th><th>Jumlah</th><th>% Harian</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Kalori</td><td>290 kkal</td><td>15%</td></tr>
+                                        <tr><td>Protein</td><td>16 g</td><td>32%</td></tr>
+                                        <tr><td>Lemak</td><td>12 g</td><td>15%</td></tr>
+                                        <tr><td>Karbohidrat</td><td>30 g</td><td>10%</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+
+                </div><!-- /recipe-grid -->
+            </section>
+
+            <!-- === SARAPAN === -->
+            <section style="margin-top:52px;">
+                <div class="section-label">
+                    <h2> Sarapan</h2>
+                </div>
+                <div class="recipe-grid">
+
+                    <!-- Nasi Megono -->
+                    <article id="megono" class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Nasi Megono</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBNXf8Q1chZdXVRo5Xo0qrf_Mtrs8IbMUEA&s"
+                                     alt="Nasi Megono khas Pekalongan"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Sarapan</span>
+                        </div>
+                        
+                        <p class="description">Cacahan nangka muda dikukus dengan kelapa parut dan bumbu rempah <em>aromatik</em>, teman setia nasi putih pagi hari.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r2">
+                        <label class="recipe-label" for="r2">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            
+                            <div class="clearfix">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDBNXf8Q1chZdXVRo5Xo0qrf_Mtrs8IbMUEA&s"
+                                     alt="Nasi Megono"
+                                     class="float-img-left">
+                                <p style="font-size:0.82rem; color:var(--mid); line-height:1.6;">
+                                    Megono adalah makanan ikonik dari pesisir utara Jawa Tengah. Dibuat dari
+                                    <strong>nangka muda cacah</strong> yang dikukus bersama <em>kelapa parut berbumbu</em>.
+                                    Cocok dinikmati hangat bersama nasi dan mendoan.
+                                </p>
+                            </div>
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>1 buah nangka muda (cacah halus)</li>
+                                <li>1 butir kelapa setengah tua (parut)</li>
+                                <li>Bumbu: cabai merah, bawang merah, bawang putih, kencur, terasi, daun salam</li>
+                                <li>Kecombrang iris tipis untuk aroma khas</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Haluskan semua bumbu, campurkan dengan kelapa parut dan irisan kecombrang.</li>
+                                <li>Aduk rata bumbu kelapa dengan cacahan nangka muda.</li>
+                                <li>Kukus 30–45 menit hingga nangka empuk dan bumbu meresap.</li>
+                                <li>Sajikan hangat bersama nasi putih dan mendoan.</li>
+                            </ol>
+                            <div class="nutrition-table-wrap">
+                                <table>
+                                    <caption> Informasi Gizi per Sajian</caption>
+                                    <thead>
+                                        <tr><th>Nutrisi</th><th>Jumlah</th><th>% Harian</th></tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr><td>Kalori</td><td>175 kkal</td><td>9%</td></tr>
+                                        <tr><td>Protein</td><td>4 g</td><td>8%</td></tr>
+                                        <tr><td>Lemak</td><td>10 g</td><td>13%</td></tr>
+                                        <tr><td>Karbohidrat</td><td>20 g</td><td>7%</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Mendoan -->
+                    <article class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Mendoan</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20ZuJk7ej8zbbjTabJbQbfzPFkOFOARUWyg&s"
+                                     alt="Mendoan tempe khas Banyumas"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Camilan</span>
+                        </div>
+                        <p class="description">Tempe tipis berlapis adonan tepung bumbu yang digoreng setengah matang — <em>renyah di luar, lembut di dalam</em>.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r7">
+                        <label class="recipe-label" for="r7">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>200g tempe, iris tipis lebar</li>
+                                <li>150g tepung terigu</li>
+                                <li>Bumbu: bawang putih, ketumbar, kencur, garam</li>
+                                <li>Daun bawang iris, air secukupnya, minyak untuk menggoreng</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Haluskan bumbu, campurkan ke dalam tepung terigu.</li>
+                                <li>Tambahkan air sedikit demi sedikit hingga adonan agak encer.</li>
+                                <li>Masukkan irisan daun bawang, aduk rata.</li>
+                                <li>Celupkan tempe ke adonan, goreng dengan api sedang <mark>(jangan terlalu kering)</mark>.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                </div><
+            </section>
+
+            <!-- === JAJANAN === -->
+            <section style="margin-top:52px;">
+                <div class="section-label">
+                    <h2> Jajanan Tradisional</h2>
+                </div>
+                <div class="recipe-grid">
+
+                    <!-- Serabi Kalibeluk -->
+                    <article id="serabi" class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Serabi Kalibeluk</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYsIbzAhi3NdCH5RPL4-fhXVBmXy5cicz0RA&s"
+                                     alt="Serabi Kalibeluk khas Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Jajanan</span>
+                        </div>
+                        <p class="description">Serabi raksasa khas desa Kalibeluk, tekstur padat namun lembut dengan varian <em>santan dan gula jawa</em>.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r4">
+                        <label class="recipe-label" for="r4">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>500g tepung beras</li>
+                                <li>250ml santan kental</li>
+                                <li>Gula jawa (varian manis) atau garam (varian gurih)</li>
+                                <li>Air secukupnya</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Campur tepung beras dengan santan dan sedikit air hingga adonan kental.</li>
+                                <li>Siapkan cetakan tanah liat, panaskan dengan kayu bakar.</li>
+                                <li>Tuang adonan ke cetakan, tutup, tunggu hingga muncul pori-pori dan matang.</li>
+                                <li>Angkat dan sajikan. Tahan hingga <strong>2 hari</strong> tanpa pengawet.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <!-- Pindang Bandeng -->
+                    <article class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Pindang Bandeng</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGX2k0JqzS2rYhHfYjXXUJ5q8p8mE5_fdTVA&s"
+                                     alt="Pindang Bandeng khas Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Oleh-oleh</span>
+                        </div>
+                        <p class="description">Pindang Bandeng khas Jawa Tengah yang diasinkan secara tradisional menggunakan <em>abu dan garam kasar</em>, aroma khas yang menggugah selera.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r8">
+                        <label class="recipe-label" for="r8">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>1 kg ikan bandeng segar</li>
+                                <li>200g garam kasar</li>
+                                <li>Air secukupnya untuk merebus</li>
+                                <li>Daun jati atau daun pisang untuk membungkus</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Bersihkan ikan, lumuri dengan garam kasar secara merata.</li>
+                                <li>Susun ikan dalam panci, tambahkan air hingga terendam.</li>
+                                <li>Rebus dengan api sedang selama 2–3 jam hingga kuah habis dan ikan matang meresap.</li>
+                                <li>Bungkus daun jati saat masih panas untuk aroma khas. Sajikan atau simpan.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                    <!-- Blengong Goreng -->
+                    <article class="card">
+                        <div class="card-top">
+                            <div class="title-wrap">
+                                <h3>Blengong Goreng</h3>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSvaICJ2QKZnW1KNw2dsSXgm4Q55Xp8hHGxg&s"
+                                     alt="Blengong Goreng khas Jawa Tengah"
+                                     width="260" height="165"
+                                     class="hover-img">
+                            </div>
+                            <span class="category-badge">Lauk Khas</span>
+                        </div>
+                        <p class="description">Olahan daging blengong (persilangan itik dan angsa) yang dimasak dengan bumbu rempah khas dan digoreng <em>garing</em>.</p>
+                        <input type="checkbox" class="recipe-toggle" id="r9">
+                        <label class="recipe-label" for="r9">Lihat Resep <span class="arrow">▾</span></label>
+                        <div class="recipe-details">
+                            <h4>Bahan-bahan</h4>
+                            <ul>
+                                <li>1 ekor blengong (potong bagian)</li>
+                                <li>Bumbu ungkep: kunyit, jahe, lengkuas, bawang, ketumbar</li>
+                                <li>Garam dan gula secukupnya</li>
+                                <li>Minyak untuk menggoreng</li>
+                            </ul>
+                            <h4>Cara Membuat</h4>
+                            <ol>
+                                <li>Lumuri potongan blengong dengan bumbu halus, diamkan 1 jam.</li>
+                                <li>Ungkep (masak tertutup) dengan sedikit air hingga bumbu meresap dan air habis.</li>
+                                <li>Goreng dalam minyak panas hingga kecoklatan dan garing di luar.</li>
+                                <li>Tiriskan, sajikan dengan sambal dan lalapan segar.</li>
+                            </ol>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+ <!-- THANK YOU CHECKBOX TRICK -->
+<input type="checkbox" id="show-thanks" style="display:none;">
+
+<div class="thanks-overlay">
+    <div class="thankyou-card">
+        <span class="thankyou-icon">(❁´◡`❁)</span>
+        <h2>Terima Kasih ☆</h2>
+        <div class="thankyou-divider"></div>
+        <p>
+            Saran dan ulasan kamu sudah kami terima.<br>
+            Hari Minggu beli kelapa,
+            Terima kasih atas sarannya.
+        </p>
+        <label for="show-thanks" class="thankyou-close">← Kembali ke Form</label>
+    </div>
+</div>
+
+<section id="tentang" class="form-section">
+    <h2>Kirim Saran & Ulasan</h2>
+    <p class="form-subtitle">Punya resep baru atau ingin memberi ulasan? Isi formulir di bawah ini!</p>
+
+    <form action="#tentang" method="get">
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="resep">Resep Favorit</label>
+                <select id="resep" name="resep">
+                    <option value="">-- Pilih Resep --</option>
+                    <option value="soto">Soto Tauco</option>
+                    <option value="megono">Nasi Megono</option>
+                    <option value="lontong">Lontong Lemprak</option>
+                    <option value="gandul">Nasi Gandul</option>
+                    <option value="kupat">Kupat Tahu</option>
+                    <option value="mendoan">Mendoan</option>
+                    <option value="serabi">Serabi Kalibeluk</option>
+                    <option value="pindang">Pindang Bandeng</option>
+                    <option value="blengong">Blengong Goreng</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Rating Rasa</label>
+                <div class="radio-group">
+                    <span class="radio-item">
+                        <input type="radio" id="r_enak" name="rating" value="enak">
+                        <label for="r_enak">😋 Enak</label>
+                    </span>
+                    <span class="radio-item">
+                        <input type="radio" id="r_biasa" name="rating" value="biasa">
+                        <label for="r_biasa">😐 Biasa</label>
+                    </span>
+                    <span class="radio-item">
+                        <input type="radio" id="r_kurang" name="rating" value="kurang">
+                        <label for="r_kurang">😕 Kurang</label>
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group full-width">
+                <label for="pesan">Pesan / Saran</label>
+                <textarea id="pesan" name="pesan" placeholder="Tuliskan saran, ulasan, atau resep yang ingin kamu bagikan..."></textarea>
+            </div>
+
+            <div class="form-group full-width">
+                <!-- Tombol submit = label yang mentrigger checkbox -->
+                <label for="show-thanks" class="submit-label"> Kirim Ulasan</label>
+            </div>
+
+        </div>
+    </form>
+</section>
+
+    <!--  <footer> -->
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/sipawawa_?igsh=MWYwY3ptbTlvaGF3ag==" target="_blank" class="footer-social" title="Instagram">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                </svg>
+            </a>
+            <a href="https://www.tiktok.com/@urlo0vesip4_?_r=1&_t=ZS-964YFPi6TYe" target="_blank" class="footer-social" title="TikTok">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+                </svg>
+            </a>
+        </div>
+       
+        <p>&copy; 2026 <strong>Dapur Jawa Tengah Nan Gurih</strong> — Dibuat Syifa Azalia · <strong>SMK Negeri 1 Kandeman</strong></p>
+    </footer>
+</main>
+</div>
+
+<!-- ==============================
+     PROFILE PAGE
+============================== -->
+<div id="profile" class="page">
+
+    <header style="padding: 50px 20px 40px;">
+        <div class="header-inner">
+            <div class="header-badge">Profil Saya</div>
+            <h1 style="font-size:clamp(1.8rem,4vw,2.8rem);">Tentang Saya</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-banner"></div>
+                <div class="profile-body">
+                    <div class="profile-avatar-wrap">
+                        <img class="profile-avatar"
+                             src="sipa.jpeg"
+                             alt="Foto Profil Syifa Azalia"
+                             width="96"
+                             height="96">
+                    </div>
+
+                    <div class="profile-name">Syifa Azalia</div>
+                    <div class="profile-title">X PPLG 1 · SMKN 1 Kandeman</div>
+
+                    
+                    <p class="profile-bio">
+                        Saya adalah siswa kelas <strong>10</strong> jurusan <em>PPLG</em> di SMK Negeri 1 Kandeman.
+                        Web ini saya buat dengan tujuan memudahkan orang-orang untuk mencari resep
+                        masakan dengan mudah menggunakan perangkat digital yang mereka punya.
+                    </p>
+
+                    <div class="nutrition-table-wrap" style="margin-bottom:24px;">
+                        <table>
+                            <caption>Bahasa & Level</caption>
+                            <thead>
+                                <tr>
+                                    <th>Bahasa</th>
+                                    <th>Level</th>
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>HTML</td><td>⭐⭐⭐⭐</td></tr>
+                                <tr><td>CSS</td><td>⭐⭐⭐⭐</td></tr>
+                                <tr><td>C#</td><td>⭐⭐⭐⭐</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="profile-info-grid">
+                        <div class="info-item">
+                            <div class="info-label">Asal Daerah</div>
+                            <div class="info-value">Kabupaten Batang</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Keahlian</div>
+                            <div class="info-value">HTML · CSS · C#</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Email</div>
+                            <div class="info-value">azaliasyifa095@gmail.com</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Status</div>
+                            <div class="info-value">Pelajar</div>
+                        </div>
+                    </div>
+ 
+                    
+                    <div class="profile-socials">
+                        <a href="https://www.instagram.com/sipawawa_?igsh=MWYwY3ptbTlvaGF3ag==" target="_blank" class="profile-social-btn instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <circle cx="12" cy="12" r="4"/>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.tiktok.com/@urlo0vesip4_?_r=1&_t=ZS-964YFPi6TYe" target="_blank" class="profile-social-btn tiktok">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.32 6.32 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.76a4.85 4.85 0 0 1-1.01-.07z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 <strong>Dapur Jawa Tengah Nan Gurih</strong> — Dibuat Syifa Azalia · <strong>SMK Negeri 1 Kandeman</strong></p>
+    </footer>
+   
+</div>
+</body>
+</html>
